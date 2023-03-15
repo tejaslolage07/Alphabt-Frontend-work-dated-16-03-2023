@@ -1,0 +1,160 @@
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: rgb(244, 244, 244);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.navbar{
+  /* position: absolute !important;
+  top: 0 !important; */
+  /* background-color: #1A122B !important; */
+  width: 100vw;
+  z-index: 10;
+  margin-top: 13px;
+}
+
+.nav-link{
+  /* font-size: smaller; */
+  font-weight: 400 !important;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nav-link:hover{
+  /* color: #FF7900 !important; */
+}
+
+/* .active{
+  color: black;
+} */
+
+.gradient-box{
+  background-color: cornflowerblue;
+  width: 100vw;
+}
+
+.color-box{
+  position: absolute;
+  z-index: 0;
+  top: 1%;
+  width: 95vw;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.live-feed{
+  height: 9vh;
+  background-color: #1A122B;
+}
+
+.dashboard{
+  height: 65vh;
+  background-image: url("./assets/bg.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.feed-contain{
+  display: flex;
+  padding: 80px;
+  padding-left: 100px;
+  padding-right: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.table{
+  width: 40% !important;
+  height: 80%;
+  border-radius: 10px !important;
+  margin: 10px;
+}
+
+
+th{
+  font-weight: 500 !important;
+  color: rgb(114, 114, 114);
+  background-color: rgb(246, 246, 246) !important;
+  text-align: center !important;
+}
+
+tr{
+  background-color: white !important;
+}
+
+td{
+  font-weight: 500;
+  padding: 12px !important;
+  text-align: center !important;
+}
+
+input{
+  padding: 10px;
+  background-color: rgb(239, 239, 239);
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.select-container{
+  position: relative;
+  display: flex;
+  z-index: 10;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 60px;
+}
+
+p{
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.button{
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #6f46c6;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.button:hover{
+  transition-timing-function: ease-in;
+  transition-duration: 200ms;
+  background-color: #6539c5;
+}
+
+.give-margin{
+  margin-right: 10px;
+}
+
+.chart-contain{
+  margin-top: 30px;
+  width: 55%;
+  background-color: white;
+  padding: 70px;
+  border-radius: 30px;
+  position: relative;
+  z-index: 5;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.dash{
+  background-color: #f3f3f3;
+}
