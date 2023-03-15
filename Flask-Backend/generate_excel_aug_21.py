@@ -10,11 +10,7 @@ CORS(app)
 
 @app.route('/')
 def hello():
-    return {
-        "Hello world": "Hello bro",
-        "Hello man": "Hello woman",
-        "Hello boy": "Hello girl",
-    }
+    return "Hello world"
 
 #change connection values as per pc
 # con = c.connect(host="127.0.0.1", user="phpmyadmin", passwd="tvsm123!", database="axle_inspection")
@@ -211,7 +207,7 @@ def values(camera_id= 'rhs_axle'):
         return jsonify(data)
     else:
         # return render_template("generate_excel_aug_21.html")
-        return redirect("http://localhost:3001/dashboard", code=302)
+        return redirect("http://localhost:3000/dashboard", code=302)
 
 
 # values(start_time,end_time,camera_id)
